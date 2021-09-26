@@ -70,6 +70,7 @@ const routes = [
   { path: '/map', name: 'map', component: () => import('@/components/map.vue') },
   { path: '/force', name: 'force', component: () => import('@/components/force.vue') },
   { path: '/3dDonut', name: '3dDonut', component: () => import('@/components/3dDonut.vue') },
+  { path: '/3dbar', name: '3dBar', component: () => import('@/components/3dBar.vue') },
 ]
 
 const router = new VueRouter({

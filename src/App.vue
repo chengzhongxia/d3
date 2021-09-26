@@ -3,6 +3,7 @@
     <div id="nav">
       <!-- <router-link to="/">首页</router-link>
       <router-link to="/about">about</router-link> -->
+      <router-link to="/3dbar">3d柱形图</router-link>
       <router-link to="/area">面积图</router-link>
       <router-link to="/bar">柱形图</router-link>
       <router-link to="/group-bar">组合柱形图</router-link>

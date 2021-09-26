@@ -2,11 +2,10 @@
   <svg ref="chartRef" width="1000" height="600">
     <!-- 线性渐变 -->
     <defs>
-      <!-- 
-        垂直渐变：x1 == x2, y1 !== y2 
-        水平渐变：x1 !== x2, y1 == y2 
-        角形渐变：x1 !== x2, y1 != y2 
-       -->
+      <!--垂直渐变：x1 == x2, y1 !== y2
+水平渐变：x1 !== x2, y1 == y2
+角形渐变：x1 !== x2, y1 != y2
+ -->
       <linearGradient id="linear" x1="0%" y1="0%" x2="0%" y2="100%">
         <!-- 渐变的颜色范围可由两种或多种颜色组成。每种颜色通过一个 <stop> 标签来规定。 -->
         <stop offset="0%" style="stop-color:#d1e0f3;"></stop>
@@ -15,14 +14,12 @@
         <stop offset="70%" style="stop-color:#76b0fc;"></stop>
         <stop offset="100%" style="stop-color:#5ba0fa;"></stop>
       </linearGradient>
-    </defs>
-
-    <!-- 径向渐变 -->
+    </defs><!-- 径向渐变 -->
     <defs>
       <radialGradient id="radial" cx="20%" cy="40%" r="50%" fx="50%" fy="50%">
-        <stop offset="0%" stop-color="blue" />
-        <stop offset="50%" stop-color="orange" />
-        <stop offset="100%" stop-color="red" />
+        <stop offset="0%" stop-color="blue"></stop>
+        <stop offset="50%" stop-color="orange"></stop>
+        <stop offset="100%" stop-color="red"></stop>
       </radialGradient>
     </defs>
   </svg>
