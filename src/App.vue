@@ -20,6 +20,7 @@
       <router-link to="/radar">雷达图</router-link>
       <router-link to="/map">中国地图</router-link>
       <router-link to="/force">力向导图</router-link>
+      <router-link to="/canvas-bar">canvas-柱形图</router-link>
     </div>
     <router-view />
   </div>

@@ -71,6 +71,7 @@ const routes = [
   { path: '/force', name: 'force', component: () => import('@/components/force.vue') },
   { path: '/3dDonut', name: '3dDonut', component: () => import('@/components/3dDonut.vue') },
   { path: '/3dbar', name: '3dBar', component: () => import('@/components/3dBar.vue') },
+  { path: '/canvas-bar', name: 'c-bar', component: () => import('@/canvas/bar.vue') },
 ]
 
 const router = new VueRouter({

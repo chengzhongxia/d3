@@ -6,7 +6,7 @@ div
 
   ul.list
   // 加上 - 后不会进行输出
-  - let firends = 10
+  - let firends = 10  
   case firends 
     when 0
       p 您没有朋友
